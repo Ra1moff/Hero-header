@@ -1,0 +1,310 @@
+@import url(common.css);
+@import url(fonts.css);
+
+html,body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+/* header */
+
+.header {
+  background: #926FF6;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  gap: 18px;
+}
+
+
+.nav__link-logo {
+  font-weight: 800;
+}
+
+.nav__menu {
+  display: none;
+}
+
+.link {
+  color: #fff;
+}
+
+.header > .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header__agency {
+  color: #FFE074;
+  font-size: 12px;
+}
+
+.header__hero {
+  color: #fff;
+  font-size: 62px;
+}
+
+.header__txt {
+  color: #fff;
+  font-weight: 300;
+}
+
+.header__more {
+  padding-top: 30px;
+}
+
+/* header */
+
+/* About */
+
+.about .container {
+  margin-top: 164px;
+}
+
+.about__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__card {
+  max-width: 466px;
+  width: 100%;
+}
+
+.about__title {
+  color: #FFAE00;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.about__txt {
+  color: #4f4f4f;
+  font-size: 24px;
+  padding-bottom: 31px;
+  font-weight: 500;
+}
+
+.about__instance {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4f4f4f;
+  padding-bottom: 35px;
+}
+
+.play__button-txt {
+  padding-left: 14px;
+  text-transform: uppercase;
+  color: #f3849f;
+}
+
+.about__link {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+/* About */
+
+/* slider */
+
+.slider {
+  margin-top: 105px;
+}
+
+.slider .container {
+  background: #fff;
+  padding: 73px 0;
+}
+
+.slider__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.slider__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 220px;
+}
+
+.slider__icon {
+  background: #926FF6;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.slider__icon2 {
+  background: #F3849F;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.slider__icon3 {
+  background: #79CFFF;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.slider__title {
+  font-size: 16px;
+  color: #4f4f4f;
+  font-weight: 500;
+  padding-top: 17.11px;
+}
+
+.slider__txt {
+  text-align: center;
+  color: #4f4f4f;
+  font-weight: 300;
+  padding-top: 10.13px;
+  font-size: 12px;
+}
+
+/* slider */
+
+/* portfolio */
+
+.portfolio {
+  margin-top: 105px;
+}
+
+.portfolio__title {
+  color: #FFAE00;
+  font-size: 12px;
+}
+
+.portfolio__txt {
+  font-size: 24px;
+  color: #4f4f4f;
+  letter-spacing: 0.03em;
+  padding-top: 15px;
+}
+
+.portfolio__list {
+  display: flex;
+  gap: 26px;
+  padding-top: 15px;
+}
+
+.portfolio__item {
+  color: #828282;
+  font-size: 11px;
+  transition: 0.4s;
+}
+
+.portfolio__item:hover {
+  background:  #f3849f;
+  padding: 5px 18px;
+  border-radius: 26px;
+  color: #fff;
+}
+
+/* portfolio */
+
+/* picture */
+
+.picture__img {
+  margin-top: 29px;
+}
+
+/* picture */
+
+/* blogs */
+
+.blogs {
+  background: #f7eeff;
+  margin-top: 215px;
+  height: 668px;
+}
+
+.blogs__title {
+  color: #FFAE00;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.blogs__txt {
+  color: #4f4f4f;
+  font-size: 24px;
+}
+
+.blogs__titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 113px;
+}
+
+.blogs__cards {
+  margin-top: 58px;
+  display: flex;
+  gap: 31px
+}
+
+.blogs__card {
+  max-width: 290px;
+}
+
+.blogs__card-title {
+  color: #F3849F;
+  font-size: 10px;
+  margin-top: 27px;
+}
+
+.blogs__card-title2 {
+  color: #926FF6;
+  font-size: 10px;
+  margin-top: 27px;
+}
+
+.blogs__card-title3 {
+  color: #79CFFF;
+  font-size: 10px;
+  margin-top: 27px;
+}
+
+.blogs__card-txt {
+  margin-top: 10px;
+  color: #4f4f4f;
+  font-size: 12px;
+}
+
+/* blogs */
+
+/* footer */
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11.6px;
+}
+
+.footer {
+  background: #333;
+  padding: 51px;
+}
+
+.footer__txt {
+  color: #fff;
+} 
+
+/* footer */
+
